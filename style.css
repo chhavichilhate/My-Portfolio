@@ -1,0 +1,215 @@
+/* .intro{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.intro img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px #232424, 0 0 20px 10px #11352e, 0 0 30px 15px  #252626;
+} */
+/* 
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+} */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2eeee;
+  color: #181212;
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  background: #1e1e1e;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: #00bcd4;
+  text-decoration: none;
+  /* transition: color 0.3s; */
+}
+
+/* nav a:hover {
+  color: #00bcd4;
+  text-decoration: none;
+} */
+
+.section {
+  padding: 2rem;
+  border-bottom: 1px solid #333;
+  /* max-width: 1000px;
+  margin: auto; */
+}
+.columns,.project-grid,.cert-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card{
+  background: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.skills div{
+  margin: 0.5rem 0;
+}
+
+progress{
+  width: 100%;
+  height: 10px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea{
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #00bcd4;
+}
+
+button {
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  padding: 0.75rem ;
+  border-radius: 4px;
+  cursor: pointer;
+  /* transition: background 0.3s; */
+}
+
+button:hover {
+  background: #0097a7;
+}
+
+.columns{
+  background-color:  #a3bfc5;
+}
+
+.columns div{
+  background-color:#d6d8dc;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.project-card, .certificate-card, .internship-card {
+  background: #d6d8dc;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover, .certificate-card:hover, .internship-card:hover {
+  transform: translateY(-5px);
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  height: 10px;
+  background: #d6d8dc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.bar::after {
+  content: '';
+  display: block;
+  height: 100%;
+  background: #00bcd4;
+  animation: fill 2s ease forwards;
+}
+
+.bar.html::after { width: 98%; }
+.bar.css::after { width: 90%; }
+.bar.js::after { width: 85%; }
+.bar.c::after { width: 75%; }
+.bar.cpp::after { width: 70%; }
+.bar.arvr::after { width: 30%; }
+
+@keyframes fill {
+  from { width: 0; }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #d6d8dc;
+  color: #e0e0e0;
+}
+
+.social a {
+  color: #00bcd4;
+  margin-right: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1e1e1e;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<centre>
+<body>
+  <div class="container">
+  <header>
+    <nav>
+      <h2 style="color:#00bcd4;">Chhavi's Portfolio</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#Internship">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <div class="intro">
+      <img src="cc.jpg" alt="Professional Photo" class="profile-pic" />
+      <div>
+        <h1>Hello,<h1>
+        <h2> I'm Chhavi Chilhate</h2> 
+        <h1 style="color: rgb(14, 166, 222);">A passionate Web Developer</h1>
+        <p>  Beginner in AR/VR, exploring immersive tech and creating beautiful, responsive web experiences ,turning ideas into elegant digital solutions.</p><br><br>
+        <button onclick="viewResume()"><a href="resume.html">view resume</a></button>
+        <!-- <a href="resume.html">view resume</a> -->
+        <!-- <iframe id="resumeViewer" src="https://drive.google.com/file/d/1Zw2qjVZhZWoFgXOAOUJ8yfvUXsqcL6tB/view?usp=drivesdk" style="display:none;" width="100%" height="600px"></iframe> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2 style="color: rgb(14, 166, 222);">About Me</h2>
+    <p>
+      I'm a tech enthusiast with a strong foundation in web development and a growing interest in AR/VR. my journey in technology began with a curiosity for how things works on the web .What started as simple HTML pages has evolved into deep appreciation for modern web development .<br><br>
+    I Specialize in front-end development with HTML, CSS, JavaScript, and i'm constantly expanding my skills. I practicing coding language (C and  C++) daily ,which gives me a strong understanding of programming fundamentals and problem-solving.
+    </p>
+      <div class="columns">
+      <div><h3 style="color: rgb(14, 16, 16);">Front-End</h3><p>HTML, CSS, JavaScript</p></div>
+      <div><h3 style="color: rgb(14, 16, 16);">Language</h3><p >C,  C++</p></div>
+      <div><h3 style="color: rgb(14, 16, 16);">Tools</h3><p >Git, GitHub, VS Code, Unity(basic)</p></div>
+      <div><h3 style="color: rgb(14, 16, 16);">Soft Skills</h3><p>Problem-solving, Teamwork, Communication</p></div>
+    </div>
+    <P> Currently, I'm diving into the exciting world of Augmented Reality (AR) and Virtual Reality (VR). As a beginner in this space, I'm fascinated by the possibilities of creating immersive digital experiences and bridging the gap between the physical and digital worlds.<br>
+    My goal is to become a well-rounded developer who can create not just websites, but complete digital experiences that push the boundaries of what's possible. I'm always eager to learn new technologies, collaborate with others, and take on challenging projects.</P>
+  </section>
+
+  <section id="projects" class="section">
+    <h1 style="color: rgb(14, 166, 222);">Project </h1>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3 style="color: rgb(14, 16, 16);">1.  Portfolio Website</h3>
+        <p>A personal website showcasing my skills and projects.</p>
+        <p ><strong>Tech:</strong> HTML, CSS, JavaScript.</p>
+        <a href="https://your-live-project-link.com" target="_blank">View Project</a>
+      </div>
+    </div>
+
+     <!-- <h2>Project 2</h2> -->
+    <div class="project-grid">
+      <div class="project-card">
+        <h3 style="color: rgb(14, 16, 16);">2. Cultural Canvas</h3>
+        <p >Cultural Canvas is a mobile-first AR platform that brings history to life. Imagine scanning a marker and instantly stepping into a 3D reconstruction of a centuries-old temple.<br> Picture hearing local legends narrated in native languages(English, Hindi), or watching rituals unfold through immersive storytelling.</p>
+        <p ><strong>Tech :</strong> AR(Unity), C#.</p>
+        <a href="https://cultural-heritage-sxd1.vercel.app/" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 style="color: rgb(14, 166, 222);">Skills</h2>
+    <div class="skills-container">
+      <div class="skill"><span>HTML - 98%</span><div class="bar html"></div></div>
+      <div class="skill"><span>CSS -  90%</span><div class="bar css"></div></div>
+      <div class="skill"><span>JavaScript - 85%</span><div class="bar js"></div></div>
+      <div class="skill"><span>C - 75%</span><div class="bar c"></div></div>
+      <div class="skill"><span>C++ - 70%</span><div class="bar cpp"></div></div>
+      <div class="skill"><span>AR/VR (Beginner) - 30%</span><div class="bar arvr"></div></div>
+    </div>
+  </section>
+
+  <section id="certificates" class="section">
+    <h2 style="color: rgb(14, 166, 222);">Internship</h2>
+    <div class="certificates">
+      <div class="certificate-card">
+        <h3 style="color: rgb(14, 16, 16);">EMBEDDED SYSTEMS</h3>
+
+<p>This Internship Provided Hands-On Exposure on
+Foundational Programming Skills in C <br> And Micro-Controllers
+SDLC Based Project Building in Embedded Systems</p>
+        <p><strong>Issued by : </strong>Emertxe technology </p>
+        <p><strong>Duration :</strong> 2 months (6 jan-28 Feb, 2025)</p>
+        <a href="IMG_20250326_111816.jpg" target="_blank">View Certificate</a>
+      </div>
+      <!-- <div class="internship-card">
+        <h3>Frontend Developer Internship</h3>
+        <p><strong>Organization:</strong> ABC Tech</p>
+        <p><strong>Duration:</strong> 3 months</p>
+        <p>Worked on UI components and responsive design.</p>
+        <a href="internship-certificate.pdf" target="_blank">View Certificate</a>
+      </div>
+    </div> -->
+  </section>
+
+  <section id="contact" class="section">
+    <h2 style="color: rgb(14, 166, 222);">Contact Me</h2>
+    <h6>I'm always open to discussing new projects,creative ideas,or opportunities to be part of your vision.</h6>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="social">
+      <!-- <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourprofile" target="_blank">GitHub</a> -->
+      <p>Email: chhavi.chilhate12@gmail.com</p>
+      <p>Phone: +91-9907280800</p>
+    </div>
+  </section>
+</div>
+  <!-- <footer>
+    <p style="color: aqua;"> Chhavi Chilhate</p>
+  </footer> -->
+</body>
+</html>  
